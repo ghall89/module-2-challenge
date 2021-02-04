@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
     font-family: 'Cabin', sans-serif;
@@ -44,6 +48,9 @@ header {
     background: var(--not-quite-black);
     width: 100%;
     padding: 10px 60px 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .logo {
