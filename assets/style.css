@@ -110,7 +110,7 @@ header nav ul li a {
 .content-section {
     color: var(--dark-blue);
     justify-content: flex-start;
-    margin: 29px 93px;
+    margin: 29px 4%;
 }
 
 .section-title {
@@ -205,3 +205,15 @@ article p {
 }
 
 /* End Contact Style */
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 900px) {
+
+    /* To do: */
+    /* 1. Put section titles on top of sections and change right border to bottom border */
+    /* 2. Give each work section card a full width (maybe shrink the height of the big card) */
+    
+
+}
