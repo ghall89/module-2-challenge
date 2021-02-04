@@ -18,6 +18,10 @@ body {
     background: rgb(237, 237, 246);
 }
 
+.flex-container {
+    display: flex;
+}
+
 header nav ul, #contact-me ul {
     display: flex;
     flex-wrap: wrap;
@@ -29,14 +33,6 @@ header nav ul li a, #contact-me ul li a {
     text-decoration: none;
     font-size: 18px;
     padding: 2px 8px;
-    margin: 0 10px;
-    transition: padding 0.1s;
-}
-
-header nav ul li a:hover, #contact-me ul li a:hover {
-    text-decoration: none;
-    font-size: 18px;
-    padding: 6px 8px;
     margin: 0 10px;
 }
 
