@@ -14,4 +14,4 @@ Finally, I put a few extra touches onto the page. I used some prior experience w
 
 ## Website 
 
-[https://ghall89.gitub.io/module-2-challenge](https://ghall89.gitub.io/module-2-challenge)
+[https://ghall89.github.io/module-2-challenge](https://ghall89.github.io/module-2-challenge)
