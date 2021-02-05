@@ -59,16 +59,18 @@ header nav {
     margin: 16px 0 0 60px;
 }
 
-header nav ul li a {
-    color: var(--light-blue);
-    border-bottom: 4px solid var(--light-blue);
-}
+
 
 header nav ul, #contact-me ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     align-items: center;
+}
+
+header nav ul li a {
+    color: var(--light-blue);
+    border-bottom: 4px solid var(--light-blue);
 }
 
 header nav ul li a, #contact-me ul li a {
@@ -251,4 +253,12 @@ article p {
         margin: 20px auto;
     }
 
+}
+
+@media only screen and (max-width: 415px) {
+    #contact-me ul {
+        display: block;
+        text-align: center;
+        font-size: 40px;
+    }
 }
