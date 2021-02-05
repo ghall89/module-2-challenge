@@ -137,10 +137,6 @@ article p {
 
 /* End Section Styles */
 
-/* Start About Me Style */
-
-/* End About Me Style */
-
 /* Start Work Style */
 
 #work article{
@@ -213,18 +209,6 @@ article p {
 
 @media only screen and (max-width: 900px) {
 
-    /* To do: */
-    /* 1. Put section titles on top of sections and change right border to bottom border */
-    /* 2. Give each work section card a full width (maybe shrink the height of the big card) */
-
-    header {
-        position: relative;
-    }
-
-    header nav {
-        margin: auto;
-    }
-
     .section-title {
         width: 80%;
         margin: auto;
@@ -236,12 +220,35 @@ article p {
         text-align: center;
     }
     
-    .flex-container {
+    .flex-container:not(header) {
         display: block;
     }
 
     .big-card {
         height: 160px;
+    }
+
+}
+
+@media only screen and (max-width: 805px) {
+
+    header {
+        position: relative;
+        padding: 0;
+    }
+
+    .logo {
+        padding: 0;
+        width: 100%;
+    }
+
+    .logo h1 {
+        margin: auto;
+        text-align: center;
+    }
+
+    header nav {
+        margin: 20px auto;
     }
 
 }
