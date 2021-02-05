@@ -150,7 +150,6 @@ article p {
     position: relative;
     border: 4px solid var(--light-blue);
     height: 160px;
-    width: 100%;
     margin: 6px;
     flex: 1 50%;
     overflow: hidden;
@@ -256,9 +255,13 @@ article p {
 }
 
 @media only screen and (max-width: 415px) {
-    #contact-me ul {
+    header nav ul, #contact-me ul {
         display: block;
         text-align: center;
         font-size: 40px;
+    }
+
+    header nav {
+        margin-bottom: 40px;
     }
 }
