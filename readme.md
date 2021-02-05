@@ -8,7 +8,7 @@ A website that introduces me, provides a portfolio of my web development work, a
 
 Finally, I put a few extra touches onto the page. I used some prior experience with Google Fonts to implement a typeface similar to match the one used in the mockup. I also looked into how to implement a smooth scroll when the links in 'nav' take the user to another point on the page. 
 
-##Built With
+## Built With
 * HTML
 * CSS
 
