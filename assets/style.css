@@ -16,7 +16,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     font-family: 'Cabin', sans-serif;
     background: rgb(237, 237, 246);
@@ -25,8 +24,6 @@ body {
 .flex-container {
     display: flex;
 }
-
-
 
 /* Start Header Style */
 
@@ -58,8 +55,6 @@ header {
 header nav {
     margin: 16px 0 0 60px;
 }
-
-
 
 header nav ul, #contact-me ul {
     display: flex;
@@ -160,7 +155,6 @@ article p {
     margin: 6px;
     flex: 1 50%;
     overflow: hidden;
-
 }
 
 .work-card img {
@@ -216,7 +210,6 @@ article p {
 }
 
 /* End Contact Style */
-
 
 /* Media Queries */
 
