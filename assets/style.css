@@ -71,6 +71,13 @@ header nav ul, #contact-me ul {
 header nav ul li a {
     color: var(--light-blue);
     border-bottom: 4px solid var(--light-blue);
+    transition: color 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+header nav ul li a:hover {
+    color: white;
+    border-bottom: 6px solid white;
 }
 
 header nav ul li a, #contact-me ul li a {
@@ -201,6 +208,11 @@ article p {
     color: var(--dark-blue);
     border-bottom: 4px solid var(--dark-blue);
     line-height: 2;
+}
+
+#contact-me article ul li a:hover {
+    color: var(--light-blue);
+    border-bottom: 6px solid var(--light-blue);
 }
 
 /* End Contact Style */
